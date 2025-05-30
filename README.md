@@ -2,6 +2,9 @@
 
 This web-based tool allows users to search for anatomical terms using a type-ahead input box that suggests results based on a pre-aggregated dataset. Upon selecting a term, users are presented with reference data identifiers, each of which can be copied to the clipboard with a single click.
 
+> This project is part of the **Data Management Lab** of the  
+> [Digitales Netzwerk Sammlungen](https://berlin-university-collections.de/)
+
 ## 🌐 Demo
 
 The tool uses a prebuilt taxonomy file from the [Berlin University Collections public data repository](https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json).
