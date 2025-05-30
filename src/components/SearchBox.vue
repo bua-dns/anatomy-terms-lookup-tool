@@ -91,6 +91,7 @@ function toggleSelectedSuggestion(term) {
   z-index: 1000;
   display: flex;
   gap: 0.5rem;
+  overflow: visible;
 
   input[type="text"] {
     flex: 1;
@@ -106,15 +107,18 @@ function toggleSelectedSuggestion(term) {
   }
 
   .suggestions {
-    position: absolute;
-    top: 100%;
-    margin-top: 0.5rem;
-    width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 100;
+  position: fixed;
+  left: 3.0rem;
+  top: 5rem;
+  margin-top: 0.5rem;
+  width: 22rem; // or adjust accordingly
+  max-height: 80vh;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 
     .suggestion {
       padding: 0.5rem;

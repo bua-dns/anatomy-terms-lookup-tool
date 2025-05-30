@@ -17,9 +17,14 @@ strong {
 body {
   background-image: url("@/assets/images/hg-anatomy.JPG");
   background-color: rgb(181, 197, 209);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Helvetica", sans-serif;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  @media (max-width: 768px) {
+    background-image: url("@/assets/images/hg-anatomy_responsive.JPG");
+  }
 }
 
 .submit-button {
