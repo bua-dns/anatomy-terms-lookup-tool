@@ -6,3 +6,9 @@ Die Abfrage der Referenzdaten erfolgt auf der Grundlage eines aggregierten Daten
 * UBERON-Daten
 * Terminologia Antaomica 2
 
+Die verwendete Datenaggregation kann unter
+
+<a href="https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json" target="_blank" alt="link to dataset used in lookup tool">https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json</a>
+
+eingesehen werden
+
