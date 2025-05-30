@@ -5,9 +5,12 @@ This web-based tool allows users to search for anatomical terms using a type-ahe
 > This project is part of the **Data Management Lab** of the  
 > [Digitales Netzwerk Sammlungen](https://berlin-university-collections.de/)
 
+The tool uses a prebuilt taxonomy file from the [Berlin University Collections public data repository](https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json).
+
 ## 🌐 Demo
 
-The tool uses a prebuilt taxonomy file from the [Berlin University Collections public data repository](https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json).
+💻 A demo version is available at:  
+> [https://bua-dns.github.io/anatomy-terms-lookup-tool/](https://bua-dns.github.io/anatomy-terms-lookup-tool/)
 
 ## ✨ Features
 
