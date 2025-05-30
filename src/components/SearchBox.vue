@@ -109,7 +109,7 @@ function toggleSelectedSuggestion(term) {
   .suggestions {
   position: fixed;
   left: 3.0rem;
-  top: 5rem;
+  top: 11.5rem;
   margin-top: 0.5rem;
   width: 22rem; // or adjust accordingly
   max-height: 80vh;
