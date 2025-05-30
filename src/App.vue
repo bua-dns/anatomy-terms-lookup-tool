@@ -143,6 +143,14 @@ main, aside, header {
 }
 header {
   margin-bottom: 1.0rem;
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    @media screen and (max-width: 768px) {
+      font-size: 1.125rem;
+      
+    }
+  }
 }
 .content-container {
   position: relative;
@@ -162,10 +170,6 @@ header {
 
   main {
     flex: 1;
-    h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
 
     .hint {
       font-size: .85rem;
