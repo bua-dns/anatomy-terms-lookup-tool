@@ -7,8 +7,6 @@ This web-based tool allows users to search for anatomical terms using a type-ahe
 
 The tool uses a prebuilt taxonomy file from the [Berlin University Collections public data repository](https://public-files.berlin-university-collections.de/Taxonomies/anatomical-terms.json).
 
-## 🌐 Demo
-
 💻 A demo version is available at:  
 > [https://bua-dns.github.io/anatomy-terms-lookup-tool/](https://bua-dns.github.io/anatomy-terms-lookup-tool/)
 
